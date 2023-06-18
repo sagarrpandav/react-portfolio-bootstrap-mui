@@ -132,29 +132,52 @@ export const resumeData = {
 
     skills: [
         {
-            title: "FRONT-END",
-            description: [
-                "ReactJS",
-                "React Native",
-                "JavaScript",
-                "TypeScript",
-                "Bootstrap",
-                "Material UI",
-            ],
+            title: 'Frontend',
+            description: ['HTML'
+                , 'JavaScript libraries including KnockoutJS and ReactJS'
+                , 'Styling (CSS, SCSS, CSS in JS)'
+                , 'React Component Libraries (Bootstrap, Material UI)'
+                , 'React State Management using Redux'
+                , 'Progressive Web App tools (Service Worker Workbox)']
         },
         {
-            title: "BACK-END",
-            description: ["Firebase", "NodeJS", "Java", "Python", "Solidity"],
+            title: 'Backend',
+            description: ['C++', 'Java', 'JavaScript', 'Python', 'VBScript', 'NodeJS', 'Express', 'Flask', 'Django', 'Spring MVC4', 'Spring Boot', 'Hibernate', 'JPA', 'GraphQL']
         },
         {
-            title: "DATABASES",
-            description: ["Firebase", "Ms SQL Server", "MySQL", "MongoDB"],
+            title: 'Databases',
+            description: ['MySQL', 'MongoDB', 'Firebase']
         },
         {
-            title: "SOURCE CONTROL",
-            description: ["Git", "GitHub", "Bitbucket", "SCRUM/Agile"],
-        },
+            title: 'SRC Control & DW Methodologies',
+            description: ['Git', 'GitHub', 'Bitbucket', 'Agile']
+        }
     ],
+    // skills: [
+    //     {
+    //         title: "FRONT-END",
+    //         description: [
+    //             "ReactJS",
+    //             "React Native",
+    //             "JavaScript",
+    //             "TypeScript",
+    //             "Bootstrap",
+    //             "Material UI",
+    //         ],
+    //     },
+    //     {
+    //         title: "BACK-END",
+    //         description: ["Firebase", "NodeJS", "Java", "Python", "Solidity"],
+    //     },
+    //     {
+    //         title: "DATABASES",
+    //         description: ["Firebase", "Ms SQL Server", "MySQL", "MongoDB"],
+    //     },
+    //     {
+    //         title: "SOURCE CONTROL",
+    //         description: ["Git", "GitHub", "Bitbucket", "SCRUM/Agile"],
+    //     },
+    // ],
 
     projects: [
         {
