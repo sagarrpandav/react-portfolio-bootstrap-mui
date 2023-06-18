@@ -1,25 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import {Container, Grid} from "@mui/material";
+import {Route, Routes} from "react-router-dom";
+import {Profile} from "./components/Profile/Profile";
+import {Resume} from "./pages/Resume/Resume";
+import {Header} from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Container className={"top_60"} maxWidth={'lg'}>
+            <Grid container spacing={4}>
+                <Grid item xs={12} sm={12} md={4} lg={3}>
+                    <Profile/>
+                </Grid>
+                <Grid item xs>
+                        <Header/>
+                        <div className="main-content container_shadow">
+                            <Routes>
+                                <Route path="/portfolio">
+                                    Portfolio
+                                </Route>
+                                <Route path="/" element={<Resume/>}>
+                                </Route>
+                            </Routes>
+                        </div>
+                    <div className="top_50">
+                        <Footer/>
+                    </div>
+                </Grid>
+            </Grid>
+        </Container>
+    );
 }
 
 export default App;
