@@ -53,7 +53,7 @@ export const Resume = () => {
                 <Grid item xs={12}>
                     <Grid container className="resume_timeline" spacing={2}>
                         {/* Experiences */}
-                        <Grid item sm={12} md={6}>
+                        <Grid item sm={12} md={7}>
                             <ScrollableDiv>
                                 <CustomTimeline title="Work Experience" icon={<Work/>}>
                                     {[...resumeData.experiences]
@@ -102,7 +102,7 @@ export const Resume = () => {
                         </Grid>
 
                         {/* Education */}
-                        <Grid item sm={12} md={6}>
+                        <Grid item sm={12} md={5}>
                             <ScrollableDiv>
                                 <CustomTimeline title="Education" icon={<School/>}>
                                     {[...resumeData.educations]
