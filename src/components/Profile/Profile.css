@@ -3,6 +3,9 @@
     border-radius: 6px;
     width: 100%;
     display: inline-block;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
 }
 
 .profile_name {
