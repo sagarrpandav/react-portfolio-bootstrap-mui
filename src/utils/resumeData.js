@@ -183,7 +183,7 @@ export const resumeData = {
         {
             tag: "React",
             images: [],
-            title: "Maker Academy",
+            title: "Munch Pocket",
             caption: "Maker Academy",
             description:
                 "(Turn on full screen view for these images)\n\nThis is the fully-responsive, localized and themed Maker Academy project created during my time at MakerDAO. Users can read articles or take courses with assessments. Users with special permissions can also contribute to the app by submitting a new article or course – which goes through an admin approval process. The project allows users to authenticate via gmail, email/password or web3 auth. \n\nWe worked in a team of 5; A product manager, a designer, me as the full-stack developer and 2 content writers. \n\nTechnologies used:\n• Front-end => NextJS and Material UI as the design library, Redux, Rainbow Kit UI for the web3 auth.\n• Back-end => Firebase Firestore, Storage, Cloud Functions and Google Analytics.",
@@ -201,7 +201,7 @@ export const resumeData = {
         {
             tag: "React",
             images: [],
-            title: "1inch",
+            title: "Institutional Trader Simulator",
             caption: "1inch network aggregator",
             description:
                 "(Turn on full screen view for these images)\n\nI've created a clone of the 1inch network aggregator! I built out the front-end landing page, swapping page, and implemented the swapping features. It's been a really challenging but rewarding experience.\n\nTechnologies I used:\n• ReactJS and Material UI as the design library\n• thirdweb sdk to connect metamask wallet, fetch wallet details and perform transactions\n• 1inch Network API to fetch best conversion prices and TX data to perform transactions.\n\nI also recorded a youtube video of me creating the landing page from scratch in under 4 hours - https://lnkd.in/gDvrBMUu",
@@ -223,7 +223,7 @@ export const resumeData = {
         {
             tag: "React",
             images: [],
-            title: "TheBig6ix",
+            title: "Twitter Clone",
             caption: "Score Predictor Game",
             description:
                 "This was collaboration game with the biggest football podcast show on YouTube - The Big 6ix show. I created full responsive football predictor app where users can sign up, join leagues, and predict scores to compete against other users and against the official TheBig6ix team too. n\nTechnologies used:\n• Front-end => NextJS and Material UI v5 as the design library.\n• Back-end => Firebase Firestore and Cloud Functions, api-sports API to fetch latest game fixtures and results. \n•Deployement => Vercel",
@@ -237,7 +237,7 @@ export const resumeData = {
         {
             tag: "React",
             images: [],
-            title: "ForexLens",
+            title: "Organic Store",
             caption: "ForexLens Portal",
             description:
                 "This project was with ForexLens that includes features and services for Forex and crypto education, signals and portfolio management.\n\nTechnologies used:\n• ReactJS\n• Redux\n• Material UI\n• Firebase",
@@ -246,7 +246,7 @@ export const resumeData = {
         {
             tag: "React",
             images: [],
-            title: "Crowdfunding",
+            title: "Portfolio",
             caption: "Web3 Crowdfunding",
             description:
                 "I created a simple, fully responsive web3 crowdfunding application over the weekend where you can sign in with metamask, create a campaign and donate to campaigns using your Goerli testnet ETH.\n\nTechnologies used:\nFrontend => ReactJS + Material UI for the design library + thirdweb to connect to metamask and read/call the smart contract.\nBackend => Solidity + hardhat + thirdweb for contract deployment.",
@@ -264,7 +264,7 @@ export const resumeData = {
         {
             tag: "React",
             images: [],
-            title: "NFT Marketplace",
+            title: "Spotify Meta",
             caption: "NFT Marketplace",
             description:
                 "(Turn on full screen view for these images)\n\nThis app is still under development. You can track my progress on my LinkedIn activity.\nWhilst learning web3 programming using Moralis, I chose to build a complete NFT marketplace. The UI is almost complete and the backend features are now being developed.\n\nTechnologies used:\n• Front-end => ReactJS and Material UI.\n• Back-end => Moralis, Metamask Authentication and Firebase.",
@@ -282,7 +282,7 @@ export const resumeData = {
         {
             tag: "React",
             images: [],
-            title: "Web3 Receipts",
+            title: "Music Player",
             caption: "Company registration + receipts",
             description:
                 "I've created a mini company registration and receipt system dApp. I developed a system where companies can register themselves and wait for an authorized admin to approve their registration. Once approved, they can issue receipts on sales, all authenticated using Metamask.\n\nTechnologies used:\n• Reactjs and Material-UI as my design library.\n• Solidity to write the smart contract\n• Thirdweb to deploy, test and interact with the smart contract, and also for Metamask authenticaion.",
@@ -304,7 +304,7 @@ export const resumeData = {
         {
             tag: "React",
             images: [],
-            title: "Block Explorer",
+            title: "Budget Planner",
             caption: "Ether Block Explorer",
             description:
                 "I built a mini functional Etherscan clone from start to finish, using #NextJS, #MaterialUI, and Moralis Web3. The application allows users to get the latest blocks, the latest transactions, and also display all information of a specific hash, all in real-time.",
@@ -322,15 +322,6 @@ export const resumeData = {
                     icon: <YouTube/>,
                 },
             ],
-        },
-        {
-            tag: "React",
-            images: [],
-            title: "Right Drive",
-            caption: "Right Drive ca",
-            description:
-                "Right Drive is a car dealership based in Ontario. This website is their official landing and inventory page. I had created this project alongside a UI designer at my time at YourFuse inc. \n\nTechnologies used:\n• ReactJS\n• Material UI\n• Firebase",
-            links: [{link: "https://www.rightdrive.ca/", icon: <Language/>}],
-        },
+        }
     ],
 };

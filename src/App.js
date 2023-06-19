@@ -5,6 +5,7 @@ import {Profile} from "./components/Profile/Profile";
 import {Resume} from "./pages/Resume/Resume";
 import {Header} from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import {Portfolio} from "./pages/Portfolio/Portfolio";
 
 function App() {
     return (
@@ -17,8 +18,7 @@ function App() {
                     <Header/>
                     <div className="main-content container_shadow">
                         <Routes>
-                            <Route path="/portfolio">
-                                Portfolio
+                            <Route path="/portfolio" element={<Portfolio/>}>
                             </Route>
                             <Route path="/" element={<Resume/>}>
                             </Route>
